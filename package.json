@@ -4,15 +4,24 @@
   "description": ",-----.,--.                  ,--. ,---.   ,--.,------.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
   "main": "server.js",
   "dependencies": {
-    "express": "^3.2.6",
+    "@linclark/pkg": "^1.0.2",
     "async": "^0.2.10",
+    "express": "^3.2.6",
     "socket.io": "^0.9.17"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node test.js",
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wontoan/npm_expressjs_nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wontoan/npm_expressjs_nodejs/issues"
+  },
+  "homepage": "https://github.com/wontoan/npm_expressjs_nodejs#readme"
 }
